@@ -1,0 +1,33 @@
+{
+    "name": "AAGI",
+    "version": "1.0.0",
+    "description": "",
+    "source": "index.html",
+    "forceConsistentCasingInFileNames": false,
+    "scripts": {
+        "build:css": "npx tailwindcss -i ./global_styles.css  -o ./tailwind.css -w && npx tailwindcss -w",
+        "build": "npx tailwindcss -i ./global_styles.css  -o ./tailwind.css -w",
+        "start": "parcel index.html",
+        "build1": "parcel build",
+        "deploy": "rm -rf dist/ && npm build1 && gh-pages -d dist"
+    },
+    "homepage": "https://jasperfernando.github.io/aaxgi.github.io/",
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@parcel/transformer-css": "^2.8.3",
+        "animejs": "^3.2.1",
+        "gsap": "^3.11.4",
+        "jquery": "^3.6.4",
+        "locomotive-scroll": "^4.1.4",
+        "parcel": "^2.8.0",
+        "postcss-import": "^14.0.2",
+        "scrolltrigger": "^1.0.1"
+    },
+    "devDependencies": {
+        "autoprefixer": "^10.4.0",
+        "postcss": "^8.4.4",
+        "tailwindcss": "^3.2.7"
+    }
+}

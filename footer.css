@@ -1,0 +1,203 @@
+@font-face {
+    font-family: 'Archivo Thin';
+    font-style: initial;
+    font-weight: 100;
+    font-display: swap;
+    src: url("./fonts/Archivo-Thin.woff2") format('woff2'), url("./fonts/Archivo-Thin.woff") format('woff'), url("./fonts/Archivo-Thin.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Archivo Regular';
+    font-style: initial;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./fonts/Archivo-Regular.woff2") format('woff2'), url("./fonts/Archivo-Regular.woff") format('woff'), url("./fonts/Archivo-Regular.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Archivo Medium';
+    font-style: initial;
+    font-weight: 500;
+    font-display: swap;
+    src: url("./fonts/Archivo-Medium.woff2") format('woff2'), url("./fonts/Archivo-Medium.woff") format('woff'), url("./fonts/Archivo-Medium.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Archivo SemiBold';
+    font-style: initial;
+    font-weight: 600;
+    font-display: swap;
+    src: url("./fonts/Archivo-SemiBold.woff2") format('woff2'), url("./fonts/Archivo-SemiBold.woff") format('woff'), url("./fonts/Archivo-SemiBold.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Archivo Bold';
+    font-style: initial;
+    font-weight: 700;
+    font-display: swap;
+    src: url("./fonts/Archivo-Bold.woff2") format('woff2'), url("./fonts/Archivo-Bold.woff") format('woff'), url("./fonts/Archivo-Bold.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Archivo ExtraBold';
+    font-style: initial;
+    font-weight: 800;
+    font-display: swap;
+    src: url("./fonts/Archivo-ExtraBold.woff2") format('woff2'), url("./fonts/Archivo-ExtraBold.woff") format('woff'), url("./fonts/Archivo-ExtraBold.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Archivo Black';
+    font-style: initial;
+    font-weight: 900;
+    font-display: swap;
+    src: url("./fonts/Archivo-Black.woff2") format('woff2'), url("./fonts/Archivo-Black.woff") format('woff'), url("./fonts/Archivo-Black.ttf") format('ttf');
+}
+
+/* archivo expanded */
+@font-face {
+    font-family: 'Archivo Expanded Regular';
+    font-style: initial;
+    font-weight: 400;
+    font-display: swap;
+    src: url("./fonts/Archivo_Expanded-Regular.woff2") format('woff2'), url("./fonts/Archivo_Expanded-Regular.woff") format('woff'), url("./fonts/Archivo_Expanded-Regular.ttf") format('ttf');
+}
+
+@font-face {
+    font-family: 'Archivo Expanded Bold';
+    font-style: initial;
+    font-weight: 700;
+    font-display: swap;
+    src: url("./fonts/Archivo_Expanded-Bold.ttf") format('ttf');
+}
+
+
+
+
+footer[_ngcontent-sc312] {
+    background-color: #191919;
+    background-image: url(./footer-map2.dd30896ea919aca1837c.png);
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 0 10vw
+}
+
+.white {
+    color: #e6e6e6
+}
+
+.black {
+    color: black;
+}
+
+h4[_ngcontent-sc312] {
+    font-size: 20px
+}
+
+footer[_ngcontent-sc312] p[_ngcontent-sc312] {
+    font-size: 14px
+}
+
+a[_ngcontent-sc312] {
+    color: #fff
+}
+
+.grid[_ngcontent-sc312] {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 30vw
+}
+
+.content[_ngcontent-sc312] {
+    padding: 50px 0 20px
+}
+
+.content[_ngcontent-sc312] a[_ngcontent-sc312] {
+    font-family: Archivo Bold;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px
+}
+
+.line[_ngcontent-sc312] {
+    height: 1px;
+    width: 100%;
+    background-color: #f27107;
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+.subfooter[_ngcontent-sc312] {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0 50px
+}
+
+.subfooter[_ngcontent-sc312] a[_ngcontent-sc312],
+.subfooter[_ngcontent-sc312] p[_ngcontent-sc312] {
+    font-size: 12px
+}
+
+@media screen and (max-width: 1024px) {
+    footer[_ngcontent-sc312] {
+        padding: 0 30px;
+        width: 90vw;
+        background-position: 50%;
+        background-size: cover
+    }
+
+    .grid[_ngcontent-sc312] {
+        width: 100%
+    }
+
+    .content[_ngcontent-sc312] {
+        padding-top: 0
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .subfooter[_ngcontent-sc312] {
+        display: block;
+        padding: 20px 0 80px
+    }
+
+    .line[_ngcontent-sc312],
+    .subfooter[_ngcontent-sc312] p[_ngcontent-sc312] {
+        margin-bottom: 10px
+    }
+}
+
+@media (-ms-high-contrast:active),
+(-ms-high-contrast:none) {
+    .grid[_ngcontent-sc312] {
+        display: -ms-flexbox;
+        justify-content: space-between
+    }
+}
+
+body,footer {
+    margin: 0;
+    min-height: 100%;
+    background-color: #fff;
+    font-family: "DM Sans", sans-serif;
+    color: #1c1c1c;
+    font-size: 1.25rem;
+    line-height: 1.2;
+}
+
+.content[_ngcontent-serverApp-c146] a[_ngcontent-serverApp-c146] {
+    font-family: sans-serif;
+    font-size: 14px;
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.pp{
+    color: gray;
+}
+a:-webkit-any-link {
+    text-decoration: none;
+}
