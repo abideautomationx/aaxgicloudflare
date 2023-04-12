@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-  <loc>http://abideautomationx.com/index.html</loc>
+  <loc>http://abideautomationx.com</loc>
 </url>
 <url>
-  <loc>http://abideautomationx.com/courses.html</loc>
+  <loc>http://abideautomationx.com/courses</loc>
 </url>
 <url>
-  <loc>http://abideautomationx.com/courses.html#industrial_automation</loc>
+  <loc>http://abideautomationx.com/courses#industrial_automation</loc>
 </url>
 <url>
-  <loc>http://abideautomationx.com/courses.html#web_design</loc>
+  <loc>http://abideautomationx.com/courses#web_design</loc>
 </url>
 <url>
-  <loc>http://abideautomationx.com/courses.html#embedded_systems</loc>
+  <loc>http://abideautomationx.com/courses#embedded_systems</loc>
 </url>
 <url>
-  <loc>http://abideautomationx.com/courses.html#three_courses</loc>
+  <loc>http://abideautomationx.com/courses#three_courses</loc>
 </url>
 
 </urlset>
