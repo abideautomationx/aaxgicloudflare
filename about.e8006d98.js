@@ -1,2 +1,0 @@
-window.addEventListener("mousemove",handleMouseMove),window.addEventListener("resize",handleWindowResize);const spansSlow=document.querySelectorAll(".spanSlow"),spansFast=document.querySelectorAll(".spanFast");let width=window.innerWidth;function handleMouseMove(e){let n=e.pageX/(width/2)-1,t=100*n,s=200*n;spansSlow.forEach((e=>{e.style.transform=`translate(${t}px)`})),spansFast.forEach((e=>{e.style.transform=`translate(${s}px)`}))}function handleWindowResize(){width=window.innerWidth}
-//# sourceMappingURL=about.e8006d98.js.map
