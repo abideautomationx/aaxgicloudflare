@@ -1,25 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-  <loc>http://abideautomationx.com</loc>
-</url>
-<url>
-  <loc>http://abideautomationx.com/courses</loc>
-</url>
-<url>
-  <loc>http://abideautomationx.com/courses#industrial_automation</loc>
-</url>
-<url>
-  <loc>http://abideautomationx.com/courses#web_design</loc>
-</url>
-<url>
-  <loc>http://abideautomationx.com/courses#embedded_systems</loc>
-</url>
-<url>
-  <loc>http://abideautomationx.com/courses#three_courses</loc>
-</url>
-<url>
-  <loc>http://abideautomationx.com/about</loc>
-</url>
-
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://abideautomationx.com%09%09en%09https://abideautomationx.com%09fr%09https://abideautomationx.com%09es%09https://abideautomationx.com</loc>
+  </url>
+  <url>
+    <loc>https://abideautomationx.com/courses%09%09en%09https://abideautomationx.com/courses%09fr%09https://abideautomationx.com/courses%09es%09https://abideautomationx.com/courses</loc>
+  </url>
+  <url>
+    <loc>https://abideautomationx.com/about%09%09en%09https://abideautomationx.com/about%09fr%09https://abideautomationx.com/about%09es%09https://abideautomationx.com/about</loc>
+  </url>
+  <url>
+    <loc>https://abideautomationx.com/courses%23embedded_systems%09%09en%09https://abideautomationx.com/courses%23embedded_systems%09fr%09https://abideautomationx.com/courses%23embedded_systems%09es%09https://abideautomationx.com/courses%23embedded_systems</loc>
+  </url>
+  <url>
+    <loc>https://abideautomationx.com/courses%23industrial_automation%09%09en%09https://abideautomationx.com/courses%23industrial_automation%09fr%09https://abideautomationx.com/courses%23industrial_automation%09es%09https://abideautomationx.com/courses%23industrial_automation</loc>
+  </url>
+  <url>
+    <loc>https://abideautomationx.com/courses%23three_courses%09%09%09https://abideautomationx.com/courses%23three_courses%09%09https://abideautomationx.com/courses%23three_courses%09%09https://abideautomationx.com/courses%23three_courses</loc>
+  </url>
+  <url>
+    <loc>https://abideautomationx.com/courses%23web_design%09%09%09https://abideautomationx.com/courses%23web_design%09%09https://abideautomationx.com/courses%23web_design%09%09https://abideautomationx.com/courses%23web_design</loc>
+  </url>
 </urlset>
